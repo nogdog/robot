@@ -12,10 +12,6 @@ class Map
     end
   end
 
-  def wall?(x, y)
-    x.zero? || x == 11 || y.zero? || y == 11
-  end
-
   def as_array
     @map
   end
@@ -26,6 +22,12 @@ class Map
       text += row.join + "\n"
     end
     text
+  end
+
+  private
+
+  def wall?(x, y)
+    x.zero? || x == 11 || y.zero? || y == 11
   end
 
   def twelve
