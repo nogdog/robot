@@ -1,3 +1,4 @@
+# Trash-picking robot
 class Robot
   include ActiveModel::Model
   attr_accessor :genome # TBD: what sort of access?

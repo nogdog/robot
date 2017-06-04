@@ -1,3 +1,4 @@
+# Map of the room that the robot will clean
 class Map
   include ActiveModel::Model
 
